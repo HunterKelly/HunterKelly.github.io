@@ -9,7 +9,7 @@ h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
     font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
-    margin-top: 3%; /* Adds a small margin above h1 elements */
+     /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
 }
 
@@ -23,6 +23,7 @@ h1:hover {
 /* Styling for portfolio title text */
 .white-text {
     color: #fff; /* This is used to change the color of the portfolio title text */
+    text-shadow: 2px 2px black;
 }
 
 /* Paragraph elements */
@@ -89,11 +90,7 @@ img:hover {
     }
 }
 
-/* Styling for footer element */
-footer {
-    padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: white;
-}
+
 /***** END OF GENERAL STYLING *****/
 
 /***** NAVBAR STYLING *****/
@@ -204,7 +201,7 @@ footer {
     padding: 10px;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: rgb(206, 206, 206); /* Sets the background color of the columns with class Column_1 */
+    background-color: rgb(253, 252, 252); /* Sets the background color of the columns with class Column_1 */
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -225,7 +222,7 @@ footer {
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
 .Column_tall {
-    padding-top: 3.5%;
+    
     height: 450px;
 }
 
