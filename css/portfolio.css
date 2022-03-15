@@ -198,9 +198,8 @@ img:hover {
 .Column_1 {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
-    padding: 10px;
-    padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
-    height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+     /* This ensures there is space between the top of the column and our headings */
+    height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: rgb(253, 252, 252); /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -216,7 +215,7 @@ img:hover {
     width: 50%;
     padding: 10px;
     padding-top: 1.9%;
-    height: 450px;
+    height: 400px;
     background-color: rgb(4, 51, 4);
 }
 
