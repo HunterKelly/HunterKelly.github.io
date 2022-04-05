@@ -13,9 +13,6 @@
 <!--Navbar-->
 <div class="Navbar">
     <a class="active" href="../index.html">Home</a>
-    <a href="#Slideshow">Slideshow</a>
-    <a href="#About">About</a>
-    <a href="#GitHub">GitHub</a>
     <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
 </div>
 
@@ -43,17 +40,40 @@ skills to create implement
 business processes for front and back-end applications.
 <br><br>
 Prior to enrolling in The Tech Academy, I graduated with a B.S. from Texas A&M in Renewable Natural
-Resources. I specialized in consulting environmental conservation. Making an impact in the conservation industry
- is one of the greatest impacts I could make for future generations.</p>
+Resources. I specialized in environmental consulting and sampling. I got the opportunity to lead drilling teams
+in the Gulf of Mexico sediment sampling. This is where my passion for code began. Self taught to improve existing data processes 
+with how scientific data is used and analyzed. I have 2 years experience off and on(side projects) building applications including web, buisness solutions, and even video games!
+Click below to check out my detailed resume!</p> <br>
 </strong>
 </div>
 <div class="resume">
-
+<br>
+    <a href="resume.docx" download>Click Here to Download Resume</a>
+<br><br>
     <!--This is where my resume docuement can be downloaded.-->
 
 </div>
 
+<div id="Contact">
+    <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+    <div class="form-popup" id="myForm">
+        <form action="https://formspree.io/f/mgedzkeo" method="POST" class="form-container">
+            <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+            <h1>Contact</h1>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Type your name here" name="name" required>
+            <label for="phone"><b>Phone</b></label>
+            <input type="text" placeholder="Type your phone number here" name="phone">
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Type your email address here" name="email" required>
+            <label for="message"><b>Message</b></label>
+            <input type="text" placeholder="Type your message here" name="message">
 
+            <button type="submit" class="btn">SUBMIT</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+        </form>
+    </div>
+</div>
 
 
 
@@ -62,3 +82,4 @@ Resources. I specialized in consulting environmental conservation. Making an imp
 
 
 </body>
+</html>

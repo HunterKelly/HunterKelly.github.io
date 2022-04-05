@@ -527,9 +527,9 @@ footer {
     width: 100%;
     /* This ensures the column takes up half of the page width */
     padding: 1.0%;
-    height: 500px;
+    height: 525px;
     /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #1818187e;
+    background-color: #181818c0;
     /* Sets the background color of the left columns */
     
 }
@@ -788,3 +788,12 @@ button:hover,
 }
 
 /***** End of Media Query Section *****/
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.resume {
+    text-align: center;
+}
