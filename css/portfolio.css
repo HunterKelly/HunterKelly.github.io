@@ -522,6 +522,17 @@ footer {
     height: 450px;
     background-color: #043804;
 }
+.Column_3 {
+    text-shadow: 2px 2px #0c0c0cc3;
+    width: 100%;
+    /* This ensures the column takes up half of the page width */
+    padding: 1.0%;
+    height: 500px;
+    /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    background-color: #1818187e;
+    /* Sets the background color of the left columns */
+    
+}
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
 .Row:after {
