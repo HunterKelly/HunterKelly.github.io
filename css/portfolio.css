@@ -527,7 +527,7 @@ footer {
     width: 100%;
     /* This ensures the column takes up half of the page width */
     padding: 1.0%;
-    height: 525px;
+    height: 1050px;
     /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #181818c0;
     /* Sets the background color of the left columns */
